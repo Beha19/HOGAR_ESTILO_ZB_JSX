@@ -1,0 +1,544 @@
+/* == EN GENERAL DE LA PAGINA ============================================================================== */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+/* == FINAL DE GENERAL DE LA PAGINA ======================================================================= */
+
+
+/* == E.S. BODY =========================================================================================== */
+    .marquee{                                                   /* == CONTAINER MARQUEE =================== */
+        overflow: hidden;         
+        white-space: nowrap;       
+        background: black;       
+        color: white;  
+        font-family: 'Poppins', sans-serif;            
+        font-weight: bold;
+        font-size: 20px;
+        word-spacing: 10px;
+        width: 100%;
+        padding: 12px 0px 0px 0px;
+
+    }
+
+    .marquee p{                                                   /* == MARQUEE EN PARRAFO ================ */
+        display: inline-block;                
+        animation: mover 10s linear infinite; 
+    }
+
+    @keyframes mover{                                            /* == MOVIMIENTOS LINEAL ================= */
+        from {
+            transform: translateX(100%);                                     /* empieza fuera, a la derecha */
+        }
+        to {
+            transform: translateX(-100%);                                  /* termina fuera, a la izquierda */
+        }
+    }
+
+
+/* == E.S. NAV =========================================================================================== */                                                          
+    nav{                                                       /* == CONTAINER NAV ======================= */                                       
+        display: block;
+        font-family: 'Barlow', sans-serif;
+    }
+
+    #Barra-Buscador{                                           /* -- Section Barra Buscador -------------- */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #2F8F9D!important;
+        padding: 25px 50px 20px 50px;   
+    }
+
+    .Logo1 img{                                                                          /*  Logo1 imagen  */
+        width: 170px;
+        height: auto;
+        text-align: left; 
+        padding: 0%;
+        margin-bottom: 10px;
+    }
+
+    .Contenedor{                                                                /*  Buscador Imput  */
+        width: 650px;
+        padding: 0px 15px 0px 15px;
+        align-items: center;
+    }
+
+    .Envios-Compras{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales */
+        gap: 15px; /* espacio entre iconos */
+    }
+
+    .Envios1 img{                                                                       /*  Envíos imagen  */
+        width:55px;
+        height: auto;
+        align-items: end;    
+
+    }
+
+    .Compras1 img{                                                                     /*  Compras imagen  */
+        width: 50px;
+        height: auto;
+        align-items: end;
+    }
+
+    #Barra-Navegador{                                         /* -- Section Barra Navegador -------------- */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px 50px 10px 50px;
+        
+    }
+
+    .Navegador {                                                                            /*  Navegador  */
+        width: 60%;
+        list-style: none;        /* quita las viñetas */
+        margin: 0;
+        padding: 0;
+        display: flex;           /* coloca los elementos en línea horizontal */
+        justify-content: center; /* opcional: centra toda la lista */
+        background-color: white;
+    }
+
+    .Navegador li {                                                                      /*  Navegador li  */
+        width: 25%;
+        margin: 0px 20px; 
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .Navegador a {                                                                        /*  Navegador a  */
+        text-decoration: none;   /* quita el subrayado */
+        color: black;
+        font-weight: bold;
+        transition: color 0.8s;  /* animación suave */
+    }
+
+    .Navegador a:hover {                                                              /*  Navegador hover  */
+        width: 18%;
+        color: #90D1CA;
+    }
+
+    .Redes1 img{                                                                         /*  Redes imagen  */
+        width: 50px;
+        height: auto;
+        padding: 0px 10px 0px 10px;
+        object-fit: cover; 
+    }
+        
+    .Redes1 a{                                                                             /*  Redes link  */
+        text-decoration: none;
+    }
+/* == E.S. NAV FINAL ===================================================================================== */
+
+
+/* == E.S. MAIN ========================================================================================== */
+    main{
+        display: block;
+        font-family: 'Barlow', sans-serif;
+    }          
+                                          
+    #Carrusel-Banner img{                             /* == CONTAINER CARRUSEL =========================== */
+        height: 800px !important;       /* Ajusta según lo que necesites (ej. 300px, 500px, etc.) */
+        object-fit: cover;    /* Mantiene la proporción sin deformar la imagen */
+        width: auto;          /* Ocupa todo el ancho del contenedor */
+    }
+
+    #Caracteristicas1{                                /* -- Sección Características1 --------------------- */
+        display: flex;
+        justify-content: space-around;
+        margin: 40px 30px 40px 30px;
+    }
+
+    .icono-circular{
+        width: 80px;              /* tamaño del círculo */
+        height: 80px;
+        background-color: #64CCC5; /* color de fondo del círculo */
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;   /* centra la imagen horizontalmente */
+        align-items: center;       /* centra la imagen verticalmente */
+        overflow: hidden;
+        margin: 30px 30px 30px 30px;
+    }
+
+    .icono-circular img{
+        width: auto;                /* ajusta tamaño del logo dentro del círculo */
+        height: 55%;
+    }
+
+    .Economico1 h4{
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .Economico1 p{
+        text-align: center;
+        font-size: 20px;
+    }    
+
+    .Calida2 h4{
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .Calida2 p{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .Nuevo3 h4{
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .Nuevo3 p{
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .Envio2 h4{
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .Envio2 p{
+        text-align: center;
+        font-size: 20px;
+    }
+
+
+    #ProductosOfertas h2{
+        font-family: 'Poppins', sans-serif !important; /* o la fuente que prefieras */
+        font-size: 200%;                  /* tamaño más grande */
+        color: #000000 !important;                     /* celeste */
+        font-weight: bold;
+        text-transform: uppercase;          /* mayúsculas */
+        letter-spacing: 0.5px;                /* espacio entre letras */
+        margin-bottom: 30px;                /* separación del contenido */
+    }
+
+    #ProductosOfertas .card-title {
+        font-family: 'Barlow', sans-serif !important;
+        font-size: 110%;
+        text-align: center;
+        font-weight: 500;
+        color: #333 !important;                        /* texto oscuro */
+    }
+
+    .bg-ofertas{
+        background-color: #adcfd3;
+        padding: 15px 20px 20px 20px;
+        margin: 60px 0px 0px 0px;
+    } 
+    
+    #Rells{
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        margin: 150px 0px 150px 0px;    
+    }
+
+    .reels-section h3{
+        font-family: 'Poppins', sans-serif !important; /* o la fuente que prefieras */
+        font-size: 200%;                  /* tamaño más grande */
+        color: #000000 !important;                     /* celeste */
+        font-weight: bold;
+        text-transform: uppercase;          /* mayúsculas */
+        letter-spacing: 0.5px;                /* espacio entre letras */
+
+    }
+
+    iframe {
+        border-radius: 8px;           /* esquinas redondeadas */
+        box-shadow: 0 4px 15px rgba(53, 59, 59, 0.267); /* sombra suave */
+        transition: transform 0.5s ease, box-shadow 0.3s ease; /* animación */
+    }
+
+    iframe:hover {
+        transform: scale(1.03);        /* leve aumento al pasar el cursor */
+        box-shadow: 0 8px 25px rgba(224, 147, 3, 0.3); /* sombra más intensa */
+    }
+
+    #Comentarios h3{
+        font-family: 'Poppins', sans-serif !important; /* o la fuente que prefieras */
+        font-size: 170%;                  /* tamaño más grande */
+        color:#000000 !important;                     /* celeste */
+        font-weight: bold;
+        text-transform: uppercase;          /* mayúsculas */
+        letter-spacing: 0.5px;                /* espacio entre letras */
+        margin-bottom: 30px;
+    }
+
+    #Comentarios .card-title{
+        font-family: 'Barlow', sans-serif !important;
+        font-size: 100%;
+        font-weight: 600;
+        color: #333 !important; 
+    }    
+
+    .bg-comentarios{
+        background-color: #adcfd3;
+        padding: 15px 30px 20px 30px;
+        margin: 60px 0px 0px 0px; /* celeste suave */
+    }
+
+    .bg-reels{
+        background-color: #64b4b9;
+        padding: 15px 30px 20px 30px;
+        margin: 80px 0px 80px 0px; /* celeste suave */       
+    }
+
+    .btn-primary {
+        background-color: #64CCC5 !important; /* color de fondo */
+        border-color: #64CCC5!important;    /* borde del mismo color */
+        color: white !important;              /* color del texto */
+    }
+
+    .btn-primary:hover {
+        background-color: #58192c !important; /* color al pasar el mouse */
+        border-color: #58192c!important;
+    }
+
+    #Caracteristicas2{  
+        display: flex;
+        justify-content: center;
+        margin: 30px 30px 30px 30px;                           /* -- Sección Características2 --------------------- */
+    }
+
+    .Pco{
+        display: flex;
+        align-items: center;
+     
+    }
+
+    .Pco img{                                                                   /*  Pago imagen  */
+        width: auto;                /* ajusta tamaño del logo dentro del círculo */
+        height: 30%;
+        margin: 0px 6px 0px 0px;
+    }
+
+    .Pco h4{
+        font-size: 20px;
+        justify-content: center;
+        margin: 0px 0px 0px 6px; 
+    }
+
+    .Env{
+        display: flex;
+        align-items: center;
+       
+    }
+
+    .Env img{                                                                          /*  Envios2 imagen  */
+        width: auto;                /* ajusta tamaño del logo dentro del círculo */
+        height: 30%;
+        margin: 0px 6px 0px 0px;
+    }
+
+    .Env h4{
+        font-size: 20px;
+        justify-content: center;
+        margin: 0px 0px 0px 6px;         
+    }
+
+    .Ofer{
+        display: flex;
+        align-items: center;
+    }
+
+    .Ofer img{                                                                         /*  Ofertas imagen  */
+        width: auto;                /* ajusta tamaño del logo dentro del círculo */
+        height: 30%;
+        margin: 0px 6px 0px 0px;
+    }
+
+    .Ofer h4{
+        font-size: 20px;
+        justify-content: center;
+        margin: 0px 0px 0px 6px;          
+    }
+/* == E.S. MAIN FINAL ==================================================================================== */
+/* == E.S. BODY FINAL ==================================================================================== */
+
+
+/* == E.S. FOOTER ======================================================================================== */
+    footer{                                                      /* == CONTAINER FOOTER ================== */
+        display: block;
+        background-color: black;
+        font-family: "Poppins", sans-serif;     
+    }
+
+    #Pie1{                                                     /* -- Sección Pie 1 ----------------------- */
+        display: flex;
+        justify-content: space-around;
+        align-items:flex-start;
+        text-align: left;
+        padding: 30px 50px 20px 50px;
+    }
+
+    .Logo2{                                                                                     /*  Logo2  */
+        display: flex;
+        flex-direction: column; /* imagen arriba, texto abajo */
+        align-items: center;    /* centra horizontalmente */
+        text-align: left;
+        width: 220px;
+    }
+
+    .Logo2 img{                                                                           /*  Logo2 imagen */
+        width: 150px;
+        height: auto;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .Pie-Texto-Logo{    
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;                                                              /*  Texto del Logo  */
+        letter-spacing: 0.3px;
+        line-height: 2;
+        text-align: left;
+        margin: 0px;
+    }
+        
+    .SobreNosotros{                                                                    /*  Sobre Nosotros  */
+        margin: 0px 20px 0px 20px;
+    }
+
+    .SobreNosotros h5{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        line-height: 2;
+    }
+
+    .SobreNosotros ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .SobreNosotros a{
+        color: white;
+        font-size: 14px;
+        letter-spacing: 0.3px;
+        line-height: 2.5;
+        text-decoration: none;
+    }
+
+    li:hover{
+        transform: translateX(8px)
+    }
+
+    a:hover {
+        color: #5ad6df;
+    }
+
+    .Pagos-Envios{                                                                     /*  Pagos y Envíos  */                                                    
+        display: block;
+        margin: 0px 20px 0px 20px;
+    }
+
+    .Pagos-Envios h5{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        line-height: 2;
+    }
+
+    .Pagos-Envios ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .Pagos-Envios li{
+        color: white;
+        font-size: 14px;
+        letter-spacing: 0.3px;
+        line-height: 2.5;
+        text-decoration: none;
+    }
+
+    .Ayuda{                                                                          /*  Ayuda al Cliente  */
+        margin: 0px 20px 0px 20px;
+    }
+
+    .Ayuda h5{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        line-height: 2;
+    }
+
+    .Ayuda ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .Ayuda a{
+        color: white;
+        font-size: 14px;
+        letter-spacing: 0.3px;
+        line-height: 2.5;
+        text-decoration: none;
+    }
+
+    li:hover{
+        transform: translateX(8px)
+    }
+
+    a:hover{
+        color: #5ad6df;
+    }
+
+    .Redes2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales */
+        gap: 15px; /* espacio entre iconos */
+        justify-content: center; /* centra horizontalmente */
+        align-content: center;   /* centra verticalmente */
+        height: 100%;
+        padding: 60px 0px 0px 0px;
+    }
+
+    .Redes2 img{                                                                        /*  Redes2 imagen  */                                                   
+        width: 60px;
+        height: 60px;
+        text-decoration: none;
+        filter: invert(100%);
+        margin: auto;
+        transition: filter 0.3s ease, transform 0.3s ease;
+    }
+
+    .Redes2 img:hover{  
+        filter: invert(70%) sepia(100%) saturate(200%) hue-rotate(180deg);
+        transform: scale(1.1);                                                                /*  Redes2 hover  */
+    }
+
+    #Pie2{                                                   /* -- Sección Pie 2 ------------------------- */                                            
+        text-align: center;
+        padding: 30px 50px 30px 50px;        
+    }
+
+    #Pie2 h4{                                                                          /*  Texto Copyright */                                                        
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+    }
+/* == E.S. FINAL FOOTER ================================================================================== */
+
