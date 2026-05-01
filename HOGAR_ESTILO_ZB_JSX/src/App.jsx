@@ -1,7 +1,7 @@
 import Marquee from "./components/Marquee"
-import HeaderBuscador from "./components/HeaderBuscador.jsx"
+import HeaderBuscador from "./components/HeaderBuscador"
 
-import Estilos from "./styles/estilos.css"
+import Estilos from "./styles/Estilos.css";
 
 function App() {
     return(
@@ -9,7 +9,7 @@ function App() {
             <Marquee/>
             <HeaderBuscador/>
         </div>    
-    )
+    );
 }
 
 export default App
