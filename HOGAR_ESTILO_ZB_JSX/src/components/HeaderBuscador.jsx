@@ -26,4 +26,4 @@ function HeaderBuscador(){
     )
 }
 
-export default HeaderBuscador
+export default HeaderBuscador;

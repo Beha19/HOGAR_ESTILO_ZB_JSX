@@ -44,4 +44,4 @@ function ReelFb() {
     )
 }
 
-export default ReelFb
+export default ReelFb;

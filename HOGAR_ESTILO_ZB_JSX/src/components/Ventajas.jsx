@@ -38,4 +38,4 @@ function Ventajas() {
     )
 }
 
-export default Ventajas
+export default Ventajas;
