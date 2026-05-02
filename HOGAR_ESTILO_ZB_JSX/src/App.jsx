@@ -1,6 +1,7 @@
 import Marquee from "./components/Marquee"
 import HeaderBuscador from "./components/HeaderBuscador"
 import Navbar from "./components/Navbar"
+import Banner from "./components/Banner";
 
 import "./styles/Estilos.css";
 
@@ -10,6 +11,7 @@ function App() {
             <Marquee/>
             <HeaderBuscador/>
             <Navbar/>
+            <Banner/>
         </div>    
     );
 }
