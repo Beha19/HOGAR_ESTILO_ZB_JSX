@@ -3,6 +3,7 @@ import HeaderBuscador from "./components/HeaderBuscador"
 import Navbar from "./components/Navbar"
 import Banner from "./components/Banner"
 import Ventajas from "./components/Ventajas"
+import Ofertas from "./components/Ofertas"
 
 import "./styles/Estilos.css";
 
@@ -14,6 +15,7 @@ function App() {
             <Navbar/>
             <Banner/>
             <Ventajas/>
+            <Ofertas/>
         </div>    
     );
 }
