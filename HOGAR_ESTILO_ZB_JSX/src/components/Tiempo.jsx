@@ -25,8 +25,8 @@ function Tiempo() {
     //renderizar
     return(
         <div className="Tiempo">
-            <p>Fecha: {dia}/{mes}/{anio}</p>
-            <h2>{h}:{m}:{s}</h2>
+            <p>Fecha: {dia}-{mes}-{anio}</p>
+            <p>{h}:{m}:{s}</p>
         </div>
     );
 }
