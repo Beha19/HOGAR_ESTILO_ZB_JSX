@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Wsp from "../assets/Wsp2.png"
 import Fb from "../assets/Fb2.png"
 import TikTok from "../assets/TikTok2.png"
@@ -8,11 +9,11 @@ function Navbar() {
         <section id="Barra_Navegador">
             <nav>
                 <ul className="Navegador">         
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Nosotros</a></li>
-                    <li><a href="">Tienda</a></li>
-                    <li><a href="">Contacto</a></li>
-                    <li><a href="">Formas de Pago</a></li>
+                    <li><Link to="/">Inicio</Link></li>
+                    <li><Link to="/nosotros">Nosotros</Link></li>
+                    <li><Link to="/Tienda">Tienda</Link></li>
+                    <li><Link to="/Contacto">Contacto</Link></li>
+                    <li><Link to="/formas-pago">Formas de Pago</Link></li>
                 </ul>
             </nav>
             <div className="Redes1">
