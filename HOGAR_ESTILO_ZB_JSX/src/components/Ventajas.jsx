@@ -7,20 +7,32 @@ function Ventajas() {
     return(
         <section id="Ventajas">
             <div className="Ventaja1">
-                <img src={Productos} alt="Economico"></img>
-                <p>Productos<br/>muy económicos</p>
+                <div className="icono-circular">
+                    <img src={Productos} alt="Economico"></img>
+                </div>
+                <h4>Productos</h4>
+                <p>muy económicos</p>
             </div>
             <div className="Ventaja2">
-                <img src={Importaciones} alt="Calidad"></img>
-                <p>Importaciones<br/>de buena calidad</p>
+                <div className="icono-circular">
+                    <img src={Importaciones} alt="Calidad"></img>
+                </div>
+                <h4>Importaciones</h4>
+                <p>de buena calidad</p>
             </div>
             <div className="Ventaja3">
-                <img src={Articulos} alt="New"></img>
-                <p>Artículos<br/>novedosos</p>
+                <div className="icono-circular">
+                    <img src={Articulos} alt="New"></img>
+                </div>
+                <h4>Artículos</h4>
+                <p>novedosos</p>
             </div>
             <div className="Ventaja4">
-                <img src={Envios} alt="Envio"></img>
-                <p>Envíos<br/>rápidos y seguros</p>
+                <div className="icono-circular">
+                    <img src={Envios} alt="Envio"></img>
+                </div>
+                <h4>Envíos</h4>
+                <p>rápidos y seguros</p>
             </div>
         </section>
     )
