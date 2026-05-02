@@ -19,8 +19,8 @@ const cardsOfertas = [
 
 function Ofertas() {
   const [i, setI] = useState(0)
-  const anterior = () => setActual((prev) => (prev - 1 + cardsOfertas.length) % cardsOfertas.length)
-  const siguiente = () => setActual((prev) => (prev + 1) % cardsOfertas.length)
+  const anterior = () => setI((prev) => (prev - 1 + cardsOfertas.length) % cardsOfertas.length)
+  const siguiente = () => setI((prev) => (prev + 1) % cardsOfertas.length)
   useEffect(() =>{
     const intervalo= setInterval(() =>{
         setI((prev) => (prev+1)%cardsOfertas.length)
@@ -39,7 +39,7 @@ function Ofertas() {
                     <img src={producto.img} alt={producto.nombre}></img>
                     <h5>{producto.nombre}</h5>
                     <p className="precio">{producto.precio}</p>
-                    <button>Comprar</button>
+                    <button className="Comprar">Comprar</button>
                 </div>))}
             </div>
             <button onClick={siguiente}>{">"}</button>
