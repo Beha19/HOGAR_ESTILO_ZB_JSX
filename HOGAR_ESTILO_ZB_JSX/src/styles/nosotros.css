@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 60px 80px;
-  background-color: #fff5f8;
+  background-color: #fdf9e6;
   gap: 40px;
 }
 
@@ -14,8 +14,8 @@
 }
 
 .Nosotros_Sub {
-  color: #e8829a;
-  font-family: 'Poppins', sans-serif;
+  color: #e0cf6e;
+   font-family: 'Barlow', sans-serif;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 2px;
@@ -23,7 +23,7 @@
 }
 
 #Nosotros_Hero h1 {
-  font-family: 'Poppins', sans-serif;
+   font-family: 'Barlow', sans-serif;
   font-size: 300%;
   font-weight: bold;
   color: #2F8F9D;
@@ -40,7 +40,7 @@
 }
 
 .Btn_Conocenos {
-  background-color: #e8829a;
+  background-color: #b6a95d;
   color: white;
   border: none;
   padding: 15px 30px;
@@ -52,7 +52,7 @@
 }
 
 .Btn_Conocenos:hover {
-  background-color: #d4607a;
+  background-color: #b6a95d;
 }
 
 .Nosotros_Imagen {
@@ -73,7 +73,7 @@
 }
 
 #Por_Que h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 200%;
   font-weight: bold;
   color: #2F8F9D;
@@ -85,7 +85,7 @@
   display: block;
   width: 60px;
   height: 3px;
-  background-color: #e8829a;
+  background-color: #b6a95d;
   margin: 10px auto 40px auto;
 }
 
@@ -108,7 +108,7 @@
 }
 
 .Razon h4 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 90%;
   font-weight: bold;
   color: #333;
@@ -129,7 +129,7 @@
   justify-content: center;
   gap: 30px;
   padding: 60px 80px;
-  background-color: #f9f9f9;
+  background-color: #fdf9e6;
 }
 
 .Historia_Card {
@@ -147,7 +147,7 @@
 }
 
 .Historia_Card h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 130%;
   font-weight: bold;
   color: #2F8F9D;
@@ -202,7 +202,7 @@
 }
 
 .Btn_VerTienda:hover {
-  background-color: #e8829a;
+  background-color: #b6a95d;
 }
 
 /* Responsive Nosotros */
