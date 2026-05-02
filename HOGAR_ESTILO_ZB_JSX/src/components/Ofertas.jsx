@@ -1,19 +1,13 @@
 import { useState, useEffect } from "react"
-import Cojines1 from "../assets/productos/Cojines de peluches angora entero_1.jpg"
-import Cojines2 from "../assets/productos/Cojines con pompones_3.jpg"
-import Cojines3 from "../assets/productos/Cojín de peluche pelo corto_4.jpg"
-import Alfombra1 from "../assets/productos/tapetesecadorapido2.jpg"
-import Alfombra2 from "../assets/productos/Alfombras de cocina 1 ( 2 piezas).jpg"
-import Alfombra3 from "../assets/productos/Toallitas humedas1.jpg"
 
 const cardsOfertas = [
-  [ { img: Cojines1, nombre: "Cojines de Peluches Angora", precio: "S/. 25.00" },
-    { img: Cojines2, nombre: "Cojines con Pompones", precio: "S/. 22.00" },
-    { img: Cojines3, nombre: "Cojín de Peluche Pelo Corto", precio: "S/. 18.00" },
+  [ { img: "/productos/sala/Cojines de peluches angora entero_1.jpg", nombre: "Cojines de Peluches Angora", precio: "S/. 25.00" },
+    { img: "/productos/sala/Cojines con pompones_3.jpg", nombre: "Cojines con Pompones", precio: "S/. 22.00" },
+    { img: "/productos/dormitorio/Cojín de peluche pelo corto_4.jpg", nombre: "Cojín de Peluche Pelo Corto", precio: "S/. 18.00" },
   ],
-  [ { img: Alfombra1, nombre: "Tapetes Secado Rápido", precio: "S/. 15.00" },
-    { img: Alfombra2, nombre: "Alfombras de Cocina", precio: "S/. 15.00" },
-    { img: Alfombra3, nombre: "Toallitas Húmedas", precio: "S/. 10.00" },
+  [ { img: "/productos/baño/tapetesecadorapido2.jpg", nombre: "Tapetes Secado Rápido", precio: "S/. 15.00" },
+    { img: "/productos/cocina/Alfombras de cocina 1 ( 2 piezas).jpg", nombre: "Alfombras de Cocina", precio: "S/. 15.00" },
+    { img: "/productos/usopersonal/Toallitas humedas1.jpg", nombre: "Toallitas Húmedas", precio: "S/. 10.00" },
   ]
 ]
 
