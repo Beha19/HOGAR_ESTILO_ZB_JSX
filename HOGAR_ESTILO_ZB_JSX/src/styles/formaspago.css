@@ -6,7 +6,7 @@
   align-items: center;
   gap: 40px;
   padding: 50px 80px;
-  background-color: #fff5f8;
+  background-color: #fdf9e6;
 }
 
 .FP_Hero_Icono i {
@@ -15,7 +15,7 @@
 }
 
 .FP_Hero_Texto h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 280%;
   font-weight: bold;
   color: #2F8F9D;
@@ -25,7 +25,7 @@
 .FP_Linea {
   width: 60px;
   height: 4px;
-  background-color: #e8829a;
+  background-color: #b6a95d;
   margin-bottom: 15px;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .FP_Card h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 110%;
   font-weight: bold;
   color: #2F8F9D;
@@ -83,7 +83,7 @@
 }
 
 .FP_Btn {
-  background-color: #e8829a;
+  background-color: #b6a95d;
   color: white;
   border: none;
   padding: 8px 20px;
@@ -94,7 +94,7 @@
 }
 
 .FP_Btn:hover {
-  background-color: #d4607a;
+  background-color: #b6a95d;
 }
 
 .FP_Logos {
@@ -109,7 +109,7 @@
   font-size: 22px;
   font-weight: bold;
   color: #1a1f71;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Barlow', sans-serif;
 }
 
 .FP_Master {
@@ -127,24 +127,24 @@
 .FP_BCP {
   font-weight: bold;
   color: #f97316;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Barlow', sans-serif;
 }
 
 .FP_Interbank {
   font-weight: bold;
   color: #0066cc;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Barlow', sans-serif;
 }
 
 /* Cómo comprar */
 #FP_ComoComprar {
   padding: 60px 80px;
-  background-color: #fff5f8;
+  background-color: #fdf9e6;
   text-align: center;
 }
 
 #FP_ComoComprar h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 200%;
   font-weight: bold;
   color: #2F8F9D;
@@ -166,7 +166,7 @@
 }
 
 .FP_Numero {
-  background-color: #e8829a;
+  background-color: #b6a95d;
   color: white;
   width: 35px;
   height: 35px;
@@ -186,7 +186,7 @@
 }
 
 .FP_Paso h4 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 95%;
   font-weight: bold;
   color: #2F8F9D;
@@ -203,7 +203,7 @@
 .FP_Linea_Paso {
   width: 50px;
   height: 3px;
-  background-color: #e8829a;
+  background-color: #b6a95d;
   border-radius: 5px;
 }
 
@@ -235,7 +235,7 @@
 }
 
 .FP_Btn_Tienda {
-  background-color: #e8829a;
+  background-color: #b6a95d;
   color: white;
   border: none;
   padding: 12px 25px;
@@ -248,7 +248,7 @@
 }
 
 .FP_Btn_Tienda:hover {
-  background-color: #d4607a;
+  background-color: #b6a95d;
 }
 
 /* Responsive */
