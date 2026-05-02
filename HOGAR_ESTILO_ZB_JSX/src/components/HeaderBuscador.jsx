@@ -1,13 +1,17 @@
+import Logo from "../assets/Logo3.png"
+
 function HeaderBuscador(){
     return(
         <section id="Logo_Header">
             <div className="Logo1">
-                <img src="/HOGAR_ESTILO_ZB_JSX/src/assets/Logo3.png" alt="Logo Hogar & Estilo ZB"></img>
+                <img src={Logo} alt="Logo Hogar & Estilo ZB"></img>
             </div>
             <div className="Barra_Busquedad">
-                <div className="Buscador">
-                    <i className="bi bi-search"></i>
-                    <input type="text" placeholder="Buscar productos ........"></input>
+                <div className="input-group Buscador">
+                    <input type="text" className="form-control" placeholder="Buscar productos ........"/>
+                    <span className="input-group-text">
+                        <i className="bi bi-search"></i>
+                    </span>
                 </div>
             </div>
             <div className="Envios_Compras">
