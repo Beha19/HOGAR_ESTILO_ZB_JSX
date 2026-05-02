@@ -6,7 +6,7 @@ import Ventajas from "./components/Ventajas"
 import Ofertas from "./components/Ofertas"
 import ReelFb from "./components/ReelsFb"
 
-import "./styles/Estilos.css";
+import "./styles/estilos.css";
 
 function App() {
     return(
