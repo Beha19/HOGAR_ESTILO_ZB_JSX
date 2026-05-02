@@ -1,4 +1,4 @@
-import Logo from "../assets/Logo3.png"
+import Logo from "../assets/Logo4.png"
 
 function HeaderBuscador(){
     return(
@@ -19,7 +19,7 @@ function HeaderBuscador(){
                     <i className="bi bi-truck"></i>
                 </div>
                 <div className="Compras_1">
-                    <i className="bi bi-cart"></i>
+                    <i className="bi bi-cart4"></i>
                 </div>
             </div>
         </section>
