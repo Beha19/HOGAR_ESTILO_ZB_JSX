@@ -2,6 +2,7 @@ import Marquee from "../components/Marquee"
 import HeaderBuscador from "../components/HeaderBuscador"
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
+import ImagenSobremi from "../assets/ImagenSobremi.png"
 
 import "../styles/nosotros.css"
 
@@ -32,7 +33,7 @@ function Nosotros() {
           </button>
         </div>
         <div className="Nosotros_Imagen">
-          <img src="/IMAGENES/nosotros-hero.png" alt="Hogar & Estilo ZB" />
+          <img src= {ImagenSobremi} alt="Hogar & Estilo ZB" />
         </div>
       </section>
 
