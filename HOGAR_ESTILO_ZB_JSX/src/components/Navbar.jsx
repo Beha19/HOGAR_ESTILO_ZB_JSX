@@ -1,7 +1,7 @@
-import Wsp from "../assets/Wsp 3.png"
-import Fb from "../assets/Fb 1.png"
-import TikTok from "../assets/Tik Tok 1.png"
-import Insta from "../assets/Insta 2.png"
+import Wsp from "../assets/Wsp2.png"
+import Fb from "../assets/Fb2.png"
+import TikTok from "../assets/TikTok2.png"
+import Insta from "../assets/Insta2.png"
 
 function Navbar() {
     return(
@@ -16,17 +16,17 @@ function Navbar() {
                 </ul>
             </nav>
             <div className="Redes1">
-                <a href="" target="_blank">
-                    <img src={Wsp} alt="WhatsApp" />
+                <a href="https://wa.me/51928025303" target="_blank">
+                    <img src={Wsp} alt="Whatsaap"></img>
                 </a>
-                <a href="" target="_blank">
-                    <img src={Fb} alt="Facebook" />
+                <a href="https://www.facebook.com/share/1BLAzR6YT8/" target="_blank">
+                    <img src={Fb} alt="Facebook"></img>
                  </a>
                 <a href="" target="_blank">
-                    <img src={TikTok} alt="TikTok" />
+                    <img src={TikTok} alt="Tik Tok"></img>
                 </a>
-                <a href="" target="_blank">
-                    <img src={Insta} alt="Instagram" />
+                <a href="https://www.instagram.com/lourdeszea38?igsh=eW9kdW1reDRjbXNr" target="_blank">
+                    <img src={Insta} alt="Instagram"></img>
                 </a>
             </div>
         </section>

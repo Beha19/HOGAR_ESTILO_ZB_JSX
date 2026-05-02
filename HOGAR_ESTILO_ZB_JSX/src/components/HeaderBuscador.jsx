@@ -7,11 +7,9 @@ function HeaderBuscador(){
                 <img src={Logo} alt="Logo Hogar & Estilo ZB"></img>
             </div>
             <div className="Barra_Busquedad">
-                <div className="input-group Buscador">
-                    <input type="text" className="form-control" placeholder="Buscar productos ........"/>
-                    <span className="input-group-text">
-                        <i className="bi bi-search"></i>
-                    </span>
+                <div className="Buscador">
+                    <input type="text" placeholder="Buscar productos ........"/>
+                    <i className="bi bi-search"></i>                   
                 </div>
             </div>
             <div className="Envios_Compras">
