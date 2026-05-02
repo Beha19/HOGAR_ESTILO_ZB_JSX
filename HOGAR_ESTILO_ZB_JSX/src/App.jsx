@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar"
 import Banner from "./components/Banner"
 import Ventajas from "./components/Ventajas"
 import Ofertas from "./components/Ofertas"
+import ReelFb from "./components/ReelsFb"
 
 import "./styles/Estilos.css";
 
@@ -16,6 +17,7 @@ function App() {
             <Banner/>
             <Ventajas/>
             <Ofertas/>
+            <ReelFb/>
         </div>    
     );
 }
