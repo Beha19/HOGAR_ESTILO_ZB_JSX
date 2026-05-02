@@ -1,7 +1,7 @@
 import Marquee from "./components/Marquee"
 import HeaderBuscador from "./components/HeaderBuscador"
 
-import Estilos from "./styles/Estilos.css";
+import "./styles/Estilos.css";
 
 function App() {
     return(
