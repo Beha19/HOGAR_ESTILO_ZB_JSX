@@ -11,8 +11,8 @@ function Navbar() {
                 <ul className="Navegador">         
                     <li><Link to="/">Inicio</Link></li>
                     <li><Link to="/nosotros">Nosotros</Link></li>
-                    <li><Link to="/Tienda">Tienda</Link></li>
-                    <li><Link to="/Contacto">Contacto</Link></li>
+                    <li><Link to="/tienda">Tienda</Link></li>
+                    <li><Link to="/contacto">Contacto</Link></li>
                     <li><Link to="/formas-pago">Formas de Pago</Link></li>
                 </ul>
             </nav>
